@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <linK rel="stylesheet" href="styles.css"/>
+    <title>Kodak Kevin</title>
+</head>
+<body>
+    <h1>KodakKev</h1>
+    <div class="navbar">
+        <nav class="mainNav">
+            <a rel="home" href="/index.html">Home</a>
+            <a rel="services" href="">Services</a>
+            <a rel="gallery" href="">Gallery</a>
+            <a rel="contact" href="">Contact</a>
+        </nav>
+    </div> 
+    
+    <div class="about">
+        <img src="./public/brainstorm.jpg" alt="Brain Storm" class="photoId">
+        <p class="description">
+            Motivation is very important for the overall development of the personality and mind of the people.<br/>
+            It also puts a person in action and in a competitive state. <br>
+            Furthermore, it improves efficiency and desire to achieve the goal.<br>
+            It leads to stability and improvement in work.<br>
+            Seize your dreams without a doubt. Become who you were destined to be. <br>
+            Take your first step in the right direction without falter!<br>
+            Protect your dreams at all cost because at the end of the day all we have is our dreams.<br>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."<br>
+        </p>
+    </div>
+
+    <div class="contact">
+        
+    <button onclick="openForm()" class="btn">Contact Me</button>
+
+        <form id="contactInfo" class="contactInfo" method="">
+            <label for="firstName">First Name: </label>
+            <input for="firstName" id="firstName" placeholder="First name" required>
+            
+            <label for="lastName">Last Name: </label>
+            <input for="lastName" id="lastName" placeholder="Last Name" required>
+            
+            <label for="email">Email: </label>
+            <input for="email" id="email" placeholder="Email" required>
+        
+        <button onclick="submit">Submit</button>
+        <button onclick="closeForm()">Exit</button>
+        </form>
+    </div> 
+        
+    <div class="portfolio">
+        <img src="public/cloud.png" alt="portfolio picture" class="indexDisplay">
+        <img src="public/cyber.jpg" alt="portfolio picture" class="indexDisplay">
+        <img src="public/ecom.jpg" alt="portfolio picture" class="indexDisplay">
+        <img src="public/EVAlogo.jpg" alt="portfolio picture" class="indexDisplay">
+        <img src="public/Molecule.png" alt="portfolio picture" class="indexDisplay">
+        <img src="public/nobuf.png" alt="portfolio picture" class="indexDisplay">
+    </div> 
+
+    <div class="footer">
+        <footer>
+            &copy; Kodak Kevin<br>
+            Kevin Schroder<br>
+            678-928-3341<br>
+            KevinSchro@gmail.com<br>
+            Atlanta, GA<br>
+        </footer>
+    </div> 
+    <script src="index.js"></script>
+</body>
+</html>
