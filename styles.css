@@ -1,6 +1,9 @@
 *{
     background-color: white;
+    background-image: url("public/brainstorm.jpg");
+    background-position: right top;
 }
+    
 a {
     text-decoration: none;
     padding-left: 5px;
@@ -60,11 +63,8 @@ footer {
     
 }
 img {
-    height: 300px;
-    width: 300px;
-    display: flex;
-    
-
+    height: 250px;
+    width: 250px;
 }
 
  .portfolio {
@@ -74,8 +74,12 @@ img {
  }
 
 h1 {
-    background-color: black;
+    background-color: #008081;
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.indexDisplay {
+    padding-right:5vw;
+    padding-top: 5vw;
+}
