@@ -1,12 +1,19 @@
-*{
+body {
     background-color: white;
-    background-image: url("public/brainstorm.jpg");
-    background-position: right top;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h1 {
+    background-color: #008081;
+    color: white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
     
 a {
     text-decoration: none;
-    padding-left: 5px;
+    padding-left: 5vw;
+    padding-right: 2vw;
 }
 
 a:hover {
@@ -32,6 +39,7 @@ a:hover {
     width: 500px;
     float: left;
     padding-left: 10px;
+    clear: both;
 }
 
 .contact {
@@ -50,7 +58,9 @@ a:hover {
 
 footer {
     text-align: right;
-    padding-top: 50px;
+    background:#dce1e4;
+    padding-right: 2vw;
+    line-height: 1.5; 
 }
 
 .about {
@@ -63,23 +73,65 @@ footer {
     
 }
 img {
-    height: 250px;
-    width: 250px;
+    height: 310px;
+    width: 290px;
+    padding-top: 3vw;
 }
 
- .portfolio {
-    width: 800px;
+.portfolio {
+    width: 900px;
     justify-content: center;
     padding-left: 500px;
  }
-
-h1 {
-    background-color: #008081;
-    color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/**/
+.indexDisplay {
+    padding-right:4vw;
+    padding-top: 4vw;
 }
 
-.indexDisplay {
-    padding-right:5vw;
+.indexDisplay:hover {
+    margin-bottom: 2vw;
+    transition: margin-bottom 0.55s ease-in;
+}
+
+.btn {
+    background-color:#008081;
+    color: white;
+    height: 4vw;
+    width: 15vw;
+    font-size: 2vw;
+    border-radius: 25px;
+   
+}
+
+.contact {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+.foot {
+    padding-top: 1vw;
+}
+
+.botNav {
     padding-top: 5vw;
+}
+
+p {
+    margin-right: 15vw;
+    margin-left: 15vw;
+}
+
+.galleryBox {
+    margin-left: 30vw;
+}
+
+a:link{
+    background-color: white;
+    color: black;
+} 
+
+a:visited {
+    background-color: white;
+    color: black;
 }
