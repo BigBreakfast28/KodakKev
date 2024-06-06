@@ -8,6 +8,19 @@ h1 {
     color: white;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0px;
+    border: 5px solid black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.75em;
+    width: 30vw;
+    background-color: #008081;
+    padding: 7px;
+    margin-left: 5vw;
+    color: white;
+    border: 5px solid black;
 }
     
 a {
