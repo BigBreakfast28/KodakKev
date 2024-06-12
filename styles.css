@@ -147,4 +147,6 @@ a:link{
 a:visited {
     background-color: white;
     color: black;
+    font: "Times New Roman", Times, serif;
 }
+
