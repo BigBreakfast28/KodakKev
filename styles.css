@@ -18,12 +18,21 @@ margin-top: 1vw;
 
 h1 {
     color: gray;
-    margin-left: 6.5vw;
-    margin-top: 10vw;
+    margin-left: 7vw;
+    margin-top: 5vw;
     position: fixed;
     z-index: 3;
-    font-size: 3em;
+    font-size: 6em;
+    line-height: 1.15em;
     
+}
+
+h2 {
+    color: gray;
+    margin-left: 6vw;
+    margin-top: 17vw;
+    position: fixed;
+    z-index: 3;
 }
 
 ul li {
