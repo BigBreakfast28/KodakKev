@@ -1,152 +1,29 @@
 body {
-    background-color: white;
-    font-family:Arial, Helvetica, sans-serif
+    background-color: black;
+    position: fixed;
+    z-index: -1;
 }
 
-h1 {
-    background-color: #008081;
-    color: white;
-    text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 0px;
-    border: 5px solid black;
+.container {
+width: 85%;
+height: 93%;
+background-image: url(./public/homeScreen1.JPG);
+background-repeat: none;
+background-size: cover;
+position: fixed;
+z-index: 2;
+margin-left: 13vw;
+margin-top: 1vw;
 }
 
-h2 {
-    text-align: center;
-    font-size: 1.75em;
-    width: 30vw;
-    background-color: #008081;
-    padding: 7px;
-    margin-left: 5vw;
-    color: white;
-    border: 5px solid black;
-}
-    
-a {
-    text-decoration: none;
-    padding-left: 5vw;
-    padding-right: 2vw;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.navbar {
-    text-align: right;
-    border-style: solid 10px;
-    border-color: red;
-}
-
-.description {
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 200px;
-    padding-top: 100px;
-    line-height: 1.5;
-}
-
-.photoId {
-    height: 600px;
-    width: 500px;
+ul li {
+    list-style: none;
     float: left;
-    padding-left: 10px;
-    clear: both;
+    padding: 0.5vw;
+    margin-top: 20vw;
+    border: 3px solid white;
+    position: relative;
+    z-index: 3;
 }
 
-.contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    
-}
-
-.contactInfo {
-    display: none;
-    
-}
-
-footer {
-    text-align: right;
-    background:#dce1e4;
-    padding-right: 2vw;
-    line-height: 1.5; 
-}
-
-.about {
-   display: flex;
-}
-
-.bigHead {
-    text-align: right;
-    margin-right: 500px;
-    
-}
-img {
-    height: 310px;
-    width: 290px;
-    padding-top: 3vw;
-}
-
-.portfolio {
-    width: 900px;
-    justify-content: center;
-    padding-left: 500px;
- }
-/**/
-.indexDisplay {
-    padding-right:4vw;
-    padding-top: 4vw;
-}
-
-.indexDisplay:hover {
-    margin-bottom: 2vw;
-    transition: margin-bottom 0.55s ease-in;
-}
-
-.btn {
-    background-color:#008081;
-    color: white;
-    height: 4vw;
-    width: 15vw;
-    font-size: 2vw;
-    border-radius: 25px;
-   
-}
-
-.contact {
-    padding-top: 10vw;
-    padding-bottom: 10vw;
-}
-
-.foot {
-    padding-top: 1vw;
-}
-
-.botNav {
-    padding-top: 5vw;
-}
-
-p {
-    margin-right: 15vw;
-    margin-left: 15vw;
-}
-
-.galleryBox {
-    margin-left: 30vw;
-}
-
-a:link{
-    background-color: white;
-    color: black;
-} 
-
-a:visited {
-    background-color: white;
-    color: black;
-    font: "Times New Roman", Times, serif;
-}
 
