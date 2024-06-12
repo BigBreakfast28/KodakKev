@@ -1,4 +1,4 @@
-body {
+.homePage {
     background-color: black;
     position: fixed;
     z-index: -1;
@@ -24,13 +24,14 @@ h1 {
     z-index: 3;
     font-size: 6em;
     line-height: 1.15em;
+    margin-bottom: 0px;
     
 }
 
 h2 {
     color: gray;
-    margin-left: 6vw;
-    margin-top: 17vw;
+    margin-left: 7vw;
+    margin-top: 16vw;
     position: fixed;
     z-index: 3;
 }
