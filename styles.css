@@ -16,7 +16,7 @@ margin-left: 13vw;
 margin-top: 1vw;
 }
 
-h1 {
+.indexTitle {
     color: gray;
     margin-left: 7vw;
     margin-top: 5vw;
@@ -25,10 +25,9 @@ h1 {
     font-size: 6em;
     line-height: 1.15em;
     margin-bottom: 0px;
-    
 }
 
-h2 {
+.indexSubTitle {
     color: gray;
     margin-left: 7vw;
     margin-top: 16vw;
@@ -36,7 +35,7 @@ h2 {
     z-index: 3;
 }
 
-ul li {
+.homeList .subList {
     list-style: none;
     float: left;
     padding: 0.5vw;
@@ -57,3 +56,4 @@ a {
 a:link {
     text-decoration: none;
 }
+
