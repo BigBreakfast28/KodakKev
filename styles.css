@@ -79,6 +79,10 @@ margin-top: 1vw;
 
 .mainLink:link {}
 
+.mainLink:visited {
+    color: black;
+}
+
 .mainLink:hover {
     text-decoration: underline;
     cursor: pointer;
@@ -90,10 +94,20 @@ margin-top: 1vw;
 
 .infoBox {
     clear: both;
+    margin-top: 50px;
+   
 }
 .aboutMeText {
     float: right;
-    width: 600px;
-    
+    width:650px;
+    font-size: 1.25em;
+    line-height: 3.5em;
+    margin-top: 2vw;
+    margin-right: 5vw;
 }
 
+.aboutMe {
+    margin-top: 2.3vw;
+    height: 600px;
+    border-radius: 25px;
+}
