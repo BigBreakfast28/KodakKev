@@ -27,12 +27,20 @@ margin-top: 1vw;
     margin-bottom: 0px;
 }
 
+.indexTitle:hover {
+    cursor: pointer;
+}
+
 .indexSubTitle {
     color: gray;
     margin-left: 7vw;
     margin-top: 16vw;
     position: fixed;
     z-index: 3;
+}
+
+.indexSubTitle:hover {
+    cursor: pointer;
 }
 
 .homeList .subList {
@@ -47,13 +55,33 @@ margin-top: 1vw;
     font-size: 1.5em;
 }
 
-a {
+.homeLink {
     text-decoration: none;
     color: white;
     
 }
 
-a:link {
+.homeLink:link {
     text-decoration: none;
 }
+
+.navBar .navList {
+    list-style: none;
+    float: right;
+    margin-right: 4vw;
+    margin-top: 2.5vw;
+}
+
+.mainLink {
+    text-decoration: none;
+}
+
+.mainLink:link {}
+
+.mainLink:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 
