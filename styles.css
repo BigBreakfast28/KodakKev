@@ -4,6 +4,25 @@
     z-index: -1;
 }
 
+.footItem .footList {
+    list-style: none;
+    text-align: right;
+    margin-top: 2.5vw;
+    border-top: 1px solid black;
+    padding: 1px;
+    padding-right: 1vw;
+
+}
+
+#identifier {
+    padding-top: 20px;
+}
+
+#phoneNumber, #email {
+    border: none;
+    margin-top: 0.5vw;
+}
+
 .container {
 width: 85%;
 height: 93%;
@@ -12,13 +31,13 @@ background-repeat: none;
 background-size: cover;
 position: fixed;
 z-index: 2;
-margin-left: 13vw;
+margin-left: 19vw;
 margin-top: 1vw;
 }
 
 .indexTitle {
     color: gray;
-    margin-left: 7vw;
+    margin-left: 3vw;
     margin-top: 5vw;
     position: fixed;
     z-index: 3;
@@ -33,10 +52,11 @@ margin-top: 1vw;
 
 .indexSubTitle {
     color: gray;
-    margin-left: 7vw;
+    margin-left: 2vw;
     margin-top: 16vw;
     position: fixed;
     z-index: 3;
+    font-size: 1.25em;
 }
 
 .indexSubTitle:hover {
@@ -51,7 +71,7 @@ margin-top: 1vw;
     border: 3px solid white;
     position: relative;
     z-index: 3;
-    margin-left: 30px;
+    margin-left: 10px;
     font-size: 1.5em;
    
 }
