@@ -97,7 +97,9 @@ margin-top: 1vw;
     text-decoration: none;
 }
 
-.mainLink:link {}
+.mainLink:link {
+    color: black;
+}
 
 .mainLink:visited {
     color: black;
