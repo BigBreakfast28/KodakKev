@@ -35,6 +35,20 @@ margin-left: 19vw;
 margin-top: 1vw;
 }
 
+.container:hover {
+    width: 85%;
+height: 93%;
+background-image: url(./public/homeScreen2.jpg);
+background-repeat: none;
+background-size: cover;
+position: fixed;
+z-index: 2;
+margin-left: 19vw;
+margin-top: 1vw;
+cursor: pointer;
+}
+
+
 .indexTitle {
     color: gray;
     margin-left: 3vw;
@@ -170,4 +184,8 @@ margin-top: 1vw;
 .gallery-img {
     width: 500px;
     height:450px
+}
+
+.pagination {
+    margin-top: 2vw;
 }
