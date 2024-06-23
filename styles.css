@@ -146,7 +146,7 @@ cursor: pointer;
     margin-top: 2.3vw;
     height: 600px;
 }
-
+/* Begining of portfolio page CSS*/
 .categories {
     clear: both;
 }
@@ -157,8 +157,6 @@ cursor: pointer;
     margin: 5vw 1.75vw 2vw 1vw;
     margin-left: 2.75vw;
 }
-
-.portLink{}
 
 .portLink:link{
     color: black;
@@ -181,11 +179,26 @@ cursor: pointer;
 
 }
 
-.gallery-img {
-    width: 500px;
+img {
+    width: 470px;
     height:450px
+}
+
+.boudoir, .branding, .documentary, .event, .family, .headshot, .lifestyle, .love, .pet, .portrait, .sports, .studio, .watershadow, .wildlife {
+    display: none;
 }
 
 .pagination {
     margin-top: 2vw;
+}
+
+.pagination {
+    margin-top: 3vw;
+    margin-left: 50%;
+    cursor: pointer;
+    height: 5vw;
+}
+
+.pagePort:hover, .pagePort:hover, .pagePort:hover {
+    color: red;
 }
