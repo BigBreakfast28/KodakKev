@@ -14,15 +14,15 @@ const waterShadowPic = document.getElementsByClassName('watershadow');
 const wildLifePic = document.getElementsByClassName('wildlife');
 
 document.getElementById('pagePort2').onclick = function() {
-    let photo1page2 = document.getElementById('image9');
+    /*let photo1page2 = document.getElementById('image9');
     let photo2page2 = document.getElementById('image10');
     let photo3page2 = document.getElementById('image11');
     let photo4page2 = document.getElementById('image12');
 
     let galleryPage2 = document.getElementById('gallery');
-    //galleryPage2.innerHTML = photo1page2 + photo2page2 + photo3page2 + photo4page2;
-    console.log(photo1page2 + photo2page2 + photo3page2 + photo4page2);
-   
+    galleryPage2.innerHTML = photo1page2 + photo2page2 + photo3page2 + photo4page2;
+    console.log(photo1page2 + photo2page2 + photo3page2 + photo4page2);*/
+   document.getElementById('image9').style.display="block";
 }
 
 
