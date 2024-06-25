@@ -176,16 +176,22 @@ cursor: pointer;
     clear: both;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    margin-left: 0px;
+    margin-right: 0px;
 
 }
 
 img {
-    width: 470px;
+    width: 471px;
     height:450px
 }
 
-.boudoir, .branding, .documentary, .event, .family, .headshot, .lifestyle, .love, .pet, .portrait, .sports, .studio, .watershadow, .wildlife {
+.documentary, .event, .family, .headshot, .lifestyle, .love, .pet, .portrait, .sports, .studio, .watershadow, .wildlife {
     display: none;
+}
+
+#image16 {
+    display: block;
 }
 
 .pagination {
