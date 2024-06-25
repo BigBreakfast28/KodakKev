@@ -186,7 +186,10 @@ img {
     height:450px
 }
 
-.documentary, .event, .family, .headshot, .lifestyle, .love, .pet, .portrait, .sports, .studio, .watershadow, .wildlife {
+.documentary, .event, .family, 
+.headshot, .lifestyle, .love, 
+.pet, .portrait, .sports, .studio, 
+.watershadow, .wildlife {
     display: none;
 }
 
