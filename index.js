@@ -418,7 +418,7 @@ document.getElementById('pagePort9').onclick = function() {
     document.getElementById('image115').style.display="block";
     document.getElementById('image116').style.display="block";
     document.getElementById('image117').style.display="block";
-}*/
+}
 
 
 
