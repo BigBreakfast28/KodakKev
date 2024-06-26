@@ -14,7 +14,15 @@ const studioPic = document.getElementsByClassName('studio');
 const waterShadowPic = document.getElementsByClassName('watershadow');
 const wildLifePic = document.getElementsByClassName('wildlife');
 
+function topPage() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
 document.getElementById('pagePort1').onclick = function() {
+
+    topPage();
+
     document.getElementById('image1').style.display="block";
     document.getElementById('image2').style.display="block";
     document.getElementById('image3').style.display="block";
@@ -142,6 +150,9 @@ document.getElementById('pagePort1').onclick = function() {
 }
 
 document.getElementById('pagePort2').onclick = function() {
+
+    topPage();
+
     document.getElementById('image1').style.display="none";
     document.getElementById('image2').style.display="none";
     document.getElementById('image3').style.display="none";
@@ -270,6 +281,9 @@ document.getElementById('pagePort2').onclick = function() {
 
 
 document.getElementById('pagePort3').onclick = function() {
+
+    topPage();
+
     document.getElementById('image1').style.display="none";
     document.getElementById('image2').style.display="none";
     document.getElementById('image3').style.display="none";
@@ -398,7 +412,9 @@ document.getElementById('pagePort3').onclick = function() {
 }
 
 document.getElementById('pagePort4').onclick = function() {
-    
+
+    topPage();
+
     document.getElementById('image1').style.display="none";
     document.getElementById('image2').style.display="none";
     document.getElementById('image3').style.display="none";
@@ -528,6 +544,8 @@ document.getElementById('pagePort4').onclick = function() {
 
 document.getElementById('pagePort5').onclick = function() {
 
+    topPage();
+
     document.getElementById('image1').style.display="none";
     document.getElementById('image2').style.display="none";
     document.getElementById('image3').style.display="none";
@@ -656,6 +674,8 @@ document.getElementById('pagePort5').onclick = function() {
 
 document.getElementById('pagePort6').onclick = function() {
     
+    topPage();
+
     document.getElementById('image1').style.display="none";
     document.getElementById('image2').style.display="none";
     document.getElementById('image3').style.display="none";
@@ -785,7 +805,9 @@ document.getElementById('pagePort6').onclick = function() {
 }
 
 document.getElementById('pagePort7').onclick = function() {
-    
+
+    topPage();
+
     document.getElementById('image1').style.display="none";
     document.getElementById('image2').style.display="none";
     document.getElementById('image3').style.display="none";
@@ -914,6 +936,8 @@ document.getElementById('pagePort7').onclick = function() {
 }
 
 document.getElementById('pagePort8').onclick = function() {
+    
+    topPage();
     
     document.getElementById('image1').style.display="none";
     document.getElementById('image2').style.display="none";
