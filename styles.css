@@ -76,10 +76,7 @@ cursor: pointer;
 .indexSubTitle:hover {
     cursor: pointer;
 }
-/*End of Home List */
 
-
-/*Begining of navigation bar */
 .homeList .subList {
     list-style: none;
     float: left;
@@ -102,12 +99,15 @@ cursor: pointer;
 .homeLink:link {
     text-decoration: none;
 }
+/*End of Home List */
 
+/*Begining of navigation bar */
 .navBar .navList {
     list-style: none;
     float: right;
     margin-right: 4vw;
     margin-top: 2.5vw;
+    position:static;
 }
 
 .mainLink {
@@ -127,9 +127,7 @@ cursor: pointer;
     cursor: pointer;
 }
 
-.testDiv {
-    clear: both;
-}
+
 /*End of navigation bar */
 
 /*Begining of about me page */
@@ -222,3 +220,13 @@ img {
 /*End of portfolio page */
 
 /*Begining of Investment Page*/
+.inventmentBlock {
+    clear: both;
+}
+
+.investmentOptions {
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
