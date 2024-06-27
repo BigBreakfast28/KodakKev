@@ -1,17 +1,17 @@
+/* Begining of home page */
 .homePage {
     background-color: black;
     position: fixed;
     z-index: -1;
 }
 
-.footItem .footList {
+/*.footItem .footList {
     list-style: none;
     text-align: right;
     margin-top: 2.5vw;
     border-top: 1px solid black;
     padding: 1px;
     padding-right: 1vw;
-
 }
 
 #identifier {
@@ -21,7 +21,8 @@
 #phoneNumber, #email {
     border: none;
     margin-top: 0.5vw;
-}
+}*/ 
+/*Footer Content which was erased above*/
 
 .container {
 width: 85%;
@@ -47,7 +48,6 @@ margin-left: 19vw;
 margin-top: 1vw;
 cursor: pointer;
 }
-
 
 .indexTitle {
     color: gray;
@@ -76,7 +76,10 @@ cursor: pointer;
 .indexSubTitle:hover {
     cursor: pointer;
 }
+/*End of Home List */
 
+
+/*Begining of navigation bar */
 .homeList .subList {
     list-style: none;
     float: left;
@@ -127,7 +130,9 @@ cursor: pointer;
 .testDiv {
     clear: both;
 }
+/*End of navigation bar */
 
+/*Begining of about me page */
 .infoBox {
     clear: both;
     margin-top: 50px;
@@ -146,6 +151,8 @@ cursor: pointer;
     margin-top: 2.3vw;
     height: 600px;
 }
+/*End of about me page */
+
 /* Begining of portfolio page CSS*/
 .categories {
     clear: both;
@@ -212,3 +219,6 @@ img {
 .pagePort:hover, .pagePort:hover, .pagePort:hover {
     color: red;
 }
+/*End of portfolio page */
+
+/*Begining of Investment Page*/
