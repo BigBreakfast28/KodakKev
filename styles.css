@@ -184,7 +184,6 @@ cursor: pointer;
     grid-template-columns: auto auto auto auto;
     margin-left: 0px;
     margin-right: 0px;
-
 }
 
 img {
@@ -231,6 +230,13 @@ img {
     display: grid;
     grid-template-columns: auto auto auto;
 
+}
+
+.investmentHeader {
+    position: absolute;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 40%;    
 }
 
 .individualSession {
