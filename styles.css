@@ -307,14 +307,28 @@ li h4 {
 
 .priceList {
     text-align: left;
-    list-style-type: square;
+    list-style: none;
+}
+
+.priceList:before {
+    content: '✓';
+    color: green;
+    margin-right: 2%;
 }
 
 /*Footer starts here*/
-footer {
+.footContainer {
     clear: both;
+    border-top: 1px solid black;
+    margin-top: 7%;
+    width: 90%;
+    margin-left: 3%;
 }
 
-.footNote {
-    margin-top: 60vw;
+.footItem {
+   
+}
+
+.footList {
+    list-style: none;
 }
