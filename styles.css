@@ -280,7 +280,28 @@ img {
 }
 
 .priceTag {
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     margin-top: 5vw;
+    width: 80%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.priceHeader {
+    text-align: left;
+    margin-left: 9%;
+}
+
+li h4 {
+    text-align: left;
+    
+}
+
+.priceList {
+    text-align: left;
+    list-style-type: square;
 }
 
 /*Footer starts here*/
