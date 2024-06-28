@@ -316,19 +316,39 @@ li h4 {
     margin-right: 2%;
 }
 
-/*Footer starts here*/
+/*Footer starts here for 'info page'*/
 .footContainer {
     clear: both;
-    border-top: 1px solid black;
     margin-top: 7%;
-    width: 90%;
-    margin-left: 3%;
-}
-
-.footItem {
-   
+    padding-top: 0.005%;
+    border-top: 0.15px solid gray;
+    text-align: right;
+    
 }
 
 .footList {
     list-style: none;
+    margin-left: 90%;
+    padding: 0.25%;
+
+}
+/*End of footer for about me page*/
+
+/*Footer for investment page*/
+
+
+.investmentFootContainer {
+    position: relative;
+    clear: both;
+    margin-top: 50%;
+    margin-left: 85%;
+    text-align: right;
+    
+    
+}
+
+
+.inFootList {
+    list-style: none;
+    padding: 1.05%;
 }
