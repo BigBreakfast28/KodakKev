@@ -225,8 +225,69 @@ img {
 }
 
 .investmentOptions {
-    position: fixed;
-    margin-top: 50px;
-    margin-left: 50px;
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 15vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
 
+}
+
+.individualSession {
+    margin-right: 4vw;
+    border: 0.5px solid black;
+    height: 700px;
+    width: 400px;
+    text-align: center;
+    background-color: beige;
+}
+
+.portraitSession {
+    margin-right: 4vw;
+    border: 0.5px solid black;
+    height: 700px;
+    width: 400px;
+    text-align: center;
+    background-color: beige;
+}
+
+.groupSession {
+    margin-right: 4vw;
+    border: 0.5px solid black;
+    height: 700px;
+    width: 400px;
+    text-align: center;
+    background-color: beige;
+}
+
+.individualPic {
+    height: 175px;
+    width: 300px;
+}
+
+.groupPic {
+    height: 175px;
+    width: 300px;
+}
+
+.familyPic {
+    height: 175px;
+    width: 300px;
+}
+
+.subHeader {
+    text-decoration: underline;
+}
+
+.priceTag {
+    margin-top: 5vw;
+}
+
+/*Footer starts here*/
+footer {
+    clear: both;
+}
+
+.footNote {
+    margin-top: 60vw;
 }
