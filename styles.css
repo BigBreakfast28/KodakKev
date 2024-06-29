@@ -356,3 +356,36 @@ hr {
     width: 98%;
     color: gray;
 }
+/*Portfolio page footer*/
+.portfolioDivider {
+    margin-top: 1vw;
+}
+
+/*Begining of contact page */
+.formContainer {
+    clear: both;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    margin-left: 40%;
+    position: fixed;
+    margin-top: 10vw;
+}
+
+.firstNameContainer {
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+
+.lastNameContainer {
+    margin-left: 5vw;
+}
+
+.emailContainer {
+    margin-left: 5vw;
+}
+
+#submitForm {
+    margin-left: 5vw;
+    margin-top: 0.25vw;
+}
