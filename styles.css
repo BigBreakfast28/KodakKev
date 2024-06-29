@@ -338,17 +338,21 @@ li h4 {
 
 
 .investmentFootContainer {
-    position: relative;
+    position: static;
     clear: both;
-    margin-top: 50%;
+    margin-top: 1vw;
     margin-left: 85%;
     text-align: right;
-    
-    
 }
-
 
 .inFootList {
     list-style: none;
     padding: 1.05%;
+}
+
+hr {
+    clear: both;
+    margin-top: 50vw;
+    width: 98%;
+    color: gray;
 }
