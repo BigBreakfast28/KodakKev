@@ -409,6 +409,15 @@ li h4 {
     text-align: right;
 }
 
+.smallFoot {
+    position: static;
+    clear: both;
+    margin-top: 1vw;
+    margin-left: 85%;
+    text-align: right;
+    display: none;
+}
+
 .inFootList {
     list-style: none;
     padding: 1.05%;
@@ -496,6 +505,14 @@ hr {
         display: block;
     }
     
+    .smallGalleryContainer img {
+        height: 400px;
+        width: 460px;
+    }
+
+    .investmentFootContainer {
+        margin-left: 50%;
+    }
 
     
 }
