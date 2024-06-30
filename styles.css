@@ -152,37 +152,6 @@ display: none;
     text-decoration: none;
 }
 
-/*Media Queries*/ 
-@media  screen and (max-width: 600px) {
-    .container{
-        display: none;
-    }
-    .smallScreen {
-        display: block;
-    }
-
-
-    .homeList  {
-        display: none;
-    }
-
-    .homeDrop {
-        display: inline-block;
-        position: fixed;
-        z-index: 3;
-    }
-
-    .indexTitle {
-        font-size: 5.5vw;
-        color: chocolate;
-    }
-
-    .indexSubTitle {
-        margin-top: 20%;
-        font-size: 17px;
-        color: chocolate;
-    }
-}
 /*End of Home List */
 
 /*Begining of navigation bar */
@@ -214,12 +183,12 @@ display: none;
 
 /*End of navigation bar */
 
-/*Begining of about me page */
+/*Begining of aboutMe page */
 .infoBox {
     clear: both;
     margin-top: 50px;
-   
 }
+
 .aboutMeText {
     float: right;
     width:650px;
@@ -266,6 +235,18 @@ display: none;
     clear: both;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.smallGalleryContainer {
+    display: none;
+}
+
+.smallGallery { 
+    clear: both;
+    display: grid;
+    grid-template-columns: auto;
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -420,7 +401,6 @@ li h4 {
 
 /*Footer for investment page*/
 
-
 .investmentFootContainer {
     position: static;
     clear: both;
@@ -472,4 +452,50 @@ hr {
 #submitForm {
     margin-left: 5vw;
     margin-top: 0.25vw;
+}
+
+/*Media Queries*/ 
+@media  screen and (max-width: 600px) {
+    .container{
+        display: none;
+    }
+    .smallScreen {
+        display: block;
+    }
+
+    .homeList  {
+        display: none;
+    }
+
+    .homeDrop {
+        display: inline-block;
+        position: fixed;
+        z-index: 3;
+    }
+
+    .indexTitle {
+        font-size: 5.5vw;
+        color: chocolate;
+    }
+
+    .indexSubTitle {
+        margin-top: 20%;
+        font-size: 17px;
+        color: chocolate;
+    }
+
+    .categories {
+        display: none;
+    }
+
+    .galleryContainer {
+        display: none;
+    }
+
+    .smallGalleryContainer {
+        display: block;
+    }
+    
+
+    
 }
