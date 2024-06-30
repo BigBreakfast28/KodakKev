@@ -208,6 +208,33 @@ display: none;
 .categories {
     clear: both;
 }
+.galleryOptions {
+    position: relative;
+    display: none;
+    height: 20px;
+    width: 50px;
+    padding: 3px;
+    padding-left: 12px;
+    margin-top: 25%;
+    margin-left: 2%;
+    color: black;
+    cursor: pointer;
+    border: 0.5px solid gray;
+    border-radius: 25%;
+}
+
+.galleryOptions-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 8px 20px 0px;
+    padding: 12px 16px;
+}
+
+.galleryOptions:hover .galleryOptions-content {
+    display: block;
+}
 
 .listPort {
     list-style: none;
@@ -514,5 +541,12 @@ hr {
         margin-left: 50%;
     }
 
+    .galleryOptions {
+        clear: both;
+        display: block;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
     
 }
