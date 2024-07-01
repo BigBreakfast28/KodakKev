@@ -228,7 +228,7 @@ display: none;
     position: absolute;
     background-color: white;
     min-width: 200px;
-    box-shadow: 0px 8px 20px 0px;
+    box-shadow: 0px 8px 20px 0px gray;
     padding: 12px 16px;
 }
 
@@ -279,8 +279,8 @@ display: none;
 }
 
 img {
-    width: 471px;
-    height:450px
+    width: 375px;
+    height:400px;
 }
 
 .documentary, .event, .family, 
@@ -491,7 +491,7 @@ hr {
 }
 
 /*Media Queries*/ 
-@media  screen and (max-width: 600px) {
+@media  screen and (min-width: 600px) and (max-width: 1500px) {
     .container{
         display: none;
     }
@@ -535,6 +535,7 @@ hr {
     .smallGalleryContainer img {
         height: 400px;
         width: 460px;
+        margin-left: 3%;
     }
 
     .investmentFootContainer {
@@ -549,4 +550,12 @@ hr {
         margin-top: 3%;
     }
     
+}
+
+@media  screen and (min-width: 1650px) {
+
+     img {
+        height: 400px;
+        width: 470px;
+    }
 }
