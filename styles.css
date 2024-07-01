@@ -209,8 +209,7 @@ display: none;
     clear: both;
 }
 .galleryOptions {
-    position: relative;
-    display: none;
+    position: static;
     height: 20px;
     width: 50px;
     padding: 3px;
@@ -253,7 +252,7 @@ display: none;
 }
 
 .listPort:hover {
-    font-size: 1.20em;
+    text-decoration: underline;
     color: crimson;
     cursor: pointer;
 }
@@ -262,18 +261,6 @@ display: none;
     clear: both;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-.smallGalleryContainer {
-    display: none;
-}
-
-.smallGallery { 
-    clear: both;
-    display: grid;
-    grid-template-columns: auto;
     margin-left: 0px;
     margin-right: 0px;
 }
@@ -491,7 +478,7 @@ hr {
 }
 
 /*Media Queries*/ 
-@media  screen and (min-width: 600px) and (max-width: 1500px) {
+@media  screen and (min-width: 100px) and (max-width: 1500px) {
     .container{
         display: none;
     }
@@ -520,22 +507,13 @@ hr {
         color: chocolate;
     }
 
-    .categories {
-        display: none;
-    }
-
-    .galleryContainer {
-        display: none;
-    }
-
-    .smallGalleryContainer {
-        display: block;
-    }
-    
-    .smallGalleryContainer img {
-        height: 400px;
-        width: 460px;
-        margin-left: 3%;
+    .gallery {
+        clear: both;
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        
     }
 
     .investmentFootContainer {
@@ -550,6 +528,14 @@ hr {
         margin-top: 3%;
     }
     
+}
+
+@media  screen and (min-width: 1650px) {
+
+    img {
+       height: 400px;
+       width: 470px;
+   }
 }
 
 @media  screen and (min-width: 1501) and (max-width: 1670px) {
@@ -579,13 +565,5 @@ hr {
         margin-top: 20%;
         font-size: 17px;
         color: chocolate;
-    }
-}
-
-@media  screen and (min-width: 1650px) {
-
-     img {
-        height: 400px;
-        width: 470px;
     }
 }
