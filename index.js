@@ -1,5 +1,5 @@
 //Variables for portfolio page 
-const allPic = document.getElementsByClassName('all');
+/*const allPic = document.getElementsByClassName('all');
 const boudoirPic = document.getElementsByClassName('boudoir');
 const brandingPic = document.getElementsByClassName('branding');
 const documentaryPic = document.getElementsByClassName('documentary');
@@ -14,6 +14,7 @@ const sportsPic = document.getElementsByClassName('sports');
 const studioPic = document.getElementsByClassName('studio');
 const waterShadowPic = document.getElementsByClassName('watershadow');
 const wildLifePic = document.getElementsByClassName('wildlife');
+*/
 
 document.getElementById('allGall').onclick = function() {
     document.getElementById('image1').style.display="block";

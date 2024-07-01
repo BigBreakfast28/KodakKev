@@ -552,6 +552,36 @@ hr {
     
 }
 
+@media  screen and (min-width: 1501) and (max-width: 1670px) {
+    .container{
+        display: none;
+    }
+    .smallScreen {
+        display: block;
+    }
+
+    .homeList  {
+        display: none;
+    }
+
+    .homeDrop {
+        display: inline-block;
+        position: fixed;
+        z-index: 3;
+    }
+
+    .indexTitle {
+        font-size: 5.5vw;
+        color: chocolate;
+    }
+
+    .indexSubTitle {
+        margin-top: 20%;
+        font-size: 17px;
+        color: chocolate;
+    }
+}
+
 @media  screen and (min-width: 1650px) {
 
      img {
