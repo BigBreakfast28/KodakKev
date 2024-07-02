@@ -583,7 +583,7 @@ hr {
     }
 
     
-}@media  screen and (min-width: 1101px) and (max-width: 1500px) {
+}@media  screen and (min-width: 1100px) and (max-width: 1509px) {
     .container{
         display: none;
     }
@@ -648,15 +648,28 @@ hr {
    }
 }
 
-@media  screen and (min-width: 1501) and (max-width: 1670px) {
-    .container{
-        display: none;
-    }
-    .smallScreen {
-        display: block;
+@media  screen and (min-width: 1510px) and (max-width: 1750px) {
+    .indexTitle {
+        color: gray;
+        margin-left: 1vw;
+        margin-top: 5vw;
+        position: fixed;
+        z-index: 3;
+        font-size: 6em;
+        line-height: 1.15em;
+        margin-bottom: 0px;
     }
 
-    .homeList  {
+    .indexSubTitle {
+        color: gray;
+        margin-left: 1vw;
+        margin-top: 19vw;
+        position: fixed;
+        z-index: 3;
+        font-size: 1.25em;
+    }
+
+    .homeList .subList {
         display: none;
     }
 
@@ -664,16 +677,33 @@ hr {
         display: inline-block;
         position: fixed;
         z-index: 3;
+        font-size:25px;
+        margin-top: 22vw;
+        width: 70px;
+        height: 30px;
+        color: gray;
     }
 
-    .indexTitle {
-        font-size: 5.5vw;
-        color: chocolate;
+    .homeDropList {
+        list-style: none;
+        margin: 0px;
     }
-
-    .indexSubTitle {
-        margin-top: 20%;
-        font-size: 17px;
-        color: chocolate;
+    
+    .homeDropLink {
+        text-decoration: none;
+        color: rgb(131, 71, 31);
+    }
+    
+    .homeDropLink:visited {
+        color: rgb(131, 71, 31);
+    }
+    
+    .homeDrop-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 200px;
+        box-shadow: 0px 8px 20px 0px chocolate;
+        z-index: 3;
     }
 }
