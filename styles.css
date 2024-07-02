@@ -160,6 +160,7 @@ display: none;
     float: right;
     margin-right: 4vw;
     margin-top: 2.5vw;
+    margin-bottom: 2vw;
     position:static;
 }
 
@@ -205,30 +206,23 @@ display: none;
 /*End of about me page */
 
 /* Begining of portfolio page CSS*/
-.categories {
-    clear: both;
-}
 .galleryOptions {
     position: static;
-    height: 20px;
-    width: 50px;
-    padding: 3px;
-    padding-left: 12px;
-    margin-top: 25%;
-    margin-left: 2%;
     color: black;
     cursor: pointer;
-    border: 0.5px solid gray;
-    border-radius: 25%;
+    z-index: 3;
 }
 
 .galleryOptions-content {
     display: none;
     position: absolute;
     background-color: white;
-    min-width: 200px;
-    box-shadow: 0px 8px 20px 0px gray;
-    padding: 12px 16px;
+    max-width: 300px;
+    width: 200px;
+    max-height: 400px;
+    box-shadow: 0px 8px 20px 0px red;
+    z-index: 3;
+    text-align: left;
 }
 
 .galleryOptions:hover .galleryOptions-content {
@@ -237,9 +231,9 @@ display: none;
 
 .listPort {
     list-style: none;
-    float: left;
-    margin: 5vw 1.75vw 2vw 1vw;
-    margin-left: 2.75vw;
+    margin: 3px;
+    padding: 3px;
+  
 }
 
 .listPort:link{
@@ -257,8 +251,13 @@ display: none;
     cursor: pointer;
 }
 
+.galleryContainer {
+    clear: both;
+}
+
 .gallery {
     clear: both;
+    position: relative;
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin-left: 0px;
