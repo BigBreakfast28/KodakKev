@@ -233,7 +233,6 @@ display: none;
     list-style: none;
     margin: 3px;
     padding: 3px;
-  
 }
 
 .listPort:link{
@@ -477,7 +476,7 @@ hr {
 }
 
 /*Media Queries*/ 
-@media  screen and (min-width: 100px) and (max-width: 1500px) {
+@media  screen and (min-width: 100px) and (max-width: 800px) {
     .container{
         display: none;
     }
@@ -526,6 +525,118 @@ hr {
         margin-bottom: 3%;
         margin-top: 3%;
     }
+    
+}
+
+@media  screen and (min-width: 801px) and (max-width: 1100px) {
+    .container{
+        display: none;
+    }
+    .smallScreen {
+        display: block;
+    }
+
+    .homeList  {
+        display: none;
+    }
+
+    .homeDrop {
+        display: inline-block;
+        position: fixed;
+        z-index: 3;
+    }
+
+    .indexTitle {
+        font-size: 5.5vw;
+        color: chocolate;
+    }
+
+    .indexSubTitle {
+        margin-top: 20%;
+        font-size: 17px;
+        color: chocolate;
+    }
+
+    .gallery {
+        clear: both;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }  
+    
+    .gallery img {
+        height: 400px;
+        width: 400px;
+    }
+
+    .investmentFootContainer {
+        margin-left: 50%;
+    }
+
+    .galleryOptions {
+        clear: both;
+        display: block;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+
+    
+}@media  screen and (min-width: 1101px) and (max-width: 1500px) {
+    .container{
+        display: none;
+    }
+    .smallScreen {
+        display: block;
+    }
+
+    .homeList  {
+        display: none;
+    }
+
+    .homeDrop {
+        display: inline-block;
+        position: fixed;
+        z-index: 3;
+    }
+
+    .indexTitle {
+        font-size: 5.5vw;
+        color: chocolate;
+    }
+
+    .indexSubTitle {
+        margin-top: 20%;
+        font-size: 17px;
+        color: chocolate;
+    }
+
+    .gallery {
+        clear: both;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }  
+    
+    .gallery img {
+        height: 400px;
+        width: 390px;
+    }
+
+    .investmentFootContainer {
+        margin-left: 50%;
+    }
+
+    .galleryOptions {
+        clear: both;
+        display: block;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+
     
 }
 
