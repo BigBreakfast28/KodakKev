@@ -15,6 +15,15 @@ const studioPic = document.getElementsByClassName('studio');
 const waterShadowPic = document.getElementsByClassName('watershadow');
 const wildLifePic = document.getElementsByClassName('wildlife');
 */
+document.getElementById('triangle-left').onclick = function() {
+    document.getElementById('container').style.display = "block";
+    document.getElementById('altContainer').style.display = "none";
+}
+
+document.getElementById('triangle-right').onclick = function() {
+    document.getElementById('altContainer').style.display = "block";
+    document.getElementById('container').style.display = "none";
+}
 
 document.getElementById('allGall').onclick = function() {
     document.getElementById('image1').style.display="block";

@@ -30,9 +30,35 @@ background-image: url(./public/homeScreen1.JPG);
 background-repeat: none;
 background-size: cover;
 position: fixed;
-z-index: 2;
+z-index: 0;
 margin-left: 19vw;
 margin-top: 1vw;
+}
+
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-left: 40px solid black;
+	border-bottom: 20px solid transparent;
+    position: fixed;
+    margin-top:39vw;
+    z-index: 3;
+    margin-left: 41vw;
+    cursor: pointer;
+}
+
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-right: 40px solid black;
+	border-bottom: 20px solid transparent;
+    position: fixed;
+    z-index: 3;
+    margin-top: 39vw;
+    margin-left: 36.5vw;
+    cursor: pointer;
 }
 
 .smallScreen {
@@ -88,7 +114,7 @@ display: none;
     display: block;
 }
 
-.container:hover {
+.altContainer {
     width: 85%;
     height: 93%;
     background-image: url(./public/homeScreen2.jpg);
@@ -98,7 +124,7 @@ display: none;
     z-index: 2;
     margin-left: 19vw;
     margin-top: 1vw;
-    cursor: pointer;
+    display: none;
 }
 
 .indexTitle {
@@ -162,6 +188,20 @@ display: none;
     margin-top: 2.5vw;
     margin-bottom: 2vw;
     position:static;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 3px;
+    margin-bottom: 3.5px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 .mainLink {
@@ -484,6 +524,34 @@ hr {
         display: block;
     }
 
+    .triangle-right {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-left: 40px solid black;
+        border-bottom: 20px solid transparent;
+        position: fixed;
+        margin-top:39vw;
+        z-index: 3;
+        margin-left: 41vw;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .triangle-left {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-right: 40px solid black;
+        border-bottom: 20px solid transparent;
+        position: fixed;
+        z-index: 3;
+        margin-top: 39vw;
+        margin-left: 36.5vw;
+        cursor: pointer;
+        display:none;
+    }
+
     .homeList  {
         display: none;
     }
@@ -536,6 +604,34 @@ hr {
         display: block;
     }
 
+    .triangle-right {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-left: 40px solid black;
+        border-bottom: 20px solid transparent;
+        position: fixed;
+        margin-top:39vw;
+        z-index: 3;
+        margin-left: 41vw;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .triangle-left {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-right: 40px solid black;
+        border-bottom: 20px solid transparent;
+        position: fixed;
+        z-index: 3;
+        margin-top: 39vw;
+        margin-left: 36.5vw;
+        cursor: pointer;
+        display:none;
+    }
+
     .homeList  {
         display: none;
     }
@@ -580,15 +676,43 @@ hr {
         margin-left: 5%;
         margin-bottom: 3%;
         margin-top: 3%;
-    }
+    } 
+}
 
-    
-}@media  screen and (min-width: 1100px) and (max-width: 1509px) {
+@media  screen and (min-width: 1100px) and (max-width: 1509px) {
     .container{
         display: none;
     }
     .smallScreen {
         display: block;
+    }
+
+    .triangle-right {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-left: 40px solid black;
+        border-bottom: 20px solid transparent;
+        position: fixed;
+        margin-top:39vw;
+        z-index: 3;
+        margin-left: 41vw;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .triangle-left {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-right: 40px solid black;
+        border-bottom: 20px solid transparent;
+        position: fixed;
+        z-index: 3;
+        margin-top: 39vw;
+        margin-left: 36.5vw;
+        cursor: pointer;
+        display:none;
     }
 
     .homeList  {
@@ -636,8 +760,6 @@ hr {
         margin-bottom: 3%;
         margin-top: 3%;
     }
-
-    
 }
 
 @media  screen and (min-width: 1650px) {
@@ -667,6 +789,34 @@ hr {
         position: fixed;
         z-index: 3;
         font-size: 1.25em;
+    }
+
+    .triangle-right {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-left: 40px solid black;
+        border-bottom: 20px solid transparent;
+        position: fixed;
+        margin-top:39vw;
+        z-index: 3;
+        margin-left: 56vw;
+        cursor: pointer;
+        
+    }
+    
+    .triangle-left {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-right: 40px solid black;
+        border-bottom: 20px solid transparent;
+        position: fixed;
+        z-index: 3;
+        margin-top: 39vw;
+        margin-left: 50vw;
+        cursor: pointer;
+        
     }
 
     .homeList .subList {
