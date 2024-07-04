@@ -195,8 +195,8 @@ display: none;
     border-width: 0 1px 1px 0;
     display: inline-block;
     padding: 3px;
-    margin-left: 3px;
-    margin-bottom: 3.5px;
+    margin-left: 0.15vw;
+    margin-top: 0.15vw;
 }
 
 .down {
@@ -340,20 +340,19 @@ img {
     clear: both;
 }
 
-.investmentOptions {
-    position: absolute;
-    margin-top: 10vw;
-    margin-left: 15vw;
-    display: grid;
-    grid-template-columns: auto auto auto;
-
+.investmentHeader {
+    text-align: center;
+    margin-top: 2vw;
+    margin-left: 4%;    
 }
 
-.investmentHeader {
-    position: absolute;
-    text-align: center;
-    margin-top: 5%;
-    margin-left: 40%;    
+.investmentOptions {
+    position: relative;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 13vw;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .individualSession {
@@ -435,8 +434,8 @@ li h4 {
 
 /*Footer starts here for 'info page'*/
 .footContainer {
-    clear: both;
-    margin-top: 7%;
+   clear: both;
+    margin-top: 0vw;
     padding-top: 0.005%;
     border-top: 0.15px solid gray;
     text-align: right;
@@ -455,19 +454,9 @@ li h4 {
 
 .investmentFootContainer {
     position: static;
-    clear: both;
     margin-top: 1vw;
     margin-left: 85%;
     text-align: right;
-}
-
-.smallFoot {
-    position: static;
-    clear: both;
-    margin-top: 1vw;
-    margin-left: 85%;
-    text-align: right;
-    display: none;
 }
 
 .inFootList {
@@ -475,15 +464,17 @@ li h4 {
     padding: 1.05%;
 }
 
-hr {
-    clear: both;
-    margin-top: 50vw;
-    width: 98%;
-    color: gray;
-}
 /*Portfolio page footer*/
-.portfolioDivider {
+.portfolioFootContainer {
+    position: static;
     margin-top: 1vw;
+    margin-left: 85%;
+    text-align: right;
+}
+
+.portFootList{
+    list-style: none;
+    padding: 1.05%;
 }
 
 /*Begining of contact page */
@@ -573,13 +564,24 @@ hr {
         color: chocolate;
     }
 
+    .arrow {
+        border: solid black;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        margin-left: 1vw;
+        margin-top: 0.05vw;
+    }
+
     .gallery {
         clear: both;
         display: grid;
         grid-template-columns: auto;
         margin-left: 0px;
         margin-right: 0px;
-        
+    }
+
+    .portfolioFootContainer {
+        margin-left: 50%;
     }
 
     .investmentFootContainer {
@@ -600,46 +602,49 @@ hr {
         width: 350px;
     }
     
-     .aboutMeText {
+    .aboutMeText {
         width: 80vw;
      }
 
-     .footList {
+    .footList {
         margin-left: 49vw;
      }
 
-     .investmentOptions {
+    .investmentOptions {
         position: relative;
         margin-top: 10vw;
         margin-left: 12vw;
         display: grid;
         grid-template-columns: auto;
         margin-bottom: 2vw;
-    
     }
     
     .investmentHeader {
-        position: static;
+        clear: both;
+        position: absolute;
         text-align: center;
-        margin-top: 7vw;
-        margin-left: 5vw;
+        margin-top: 3vw;
+        margin-left: 11vw;
         z-index: 2;
     }
     
     .individualSession {
-        margin-top: 1vw;
-        margin-right: 4vw;
+        margin-top: 14vw;
+        margin-right: 3vw;
+        margin-bottom: 6vw;
         border: 0.5px solid black;
-        height: 700px;
+        height: 600px;
         width: 400px;
         text-align: center;
         background-color: beige;
+
     }
     
     .portraitSession {
         margin-right: 4vw;
+        margin-bottom: 6vw;
         border: 0.5px solid black;
-        height: 700px;
+        height: 600px;
         width: 400px;
         text-align: center;
         background-color: beige;
@@ -647,8 +652,9 @@ hr {
     
     .groupSession {
         margin-right: 4vw;
+        margin-bottom: 0vw;
         border: 0.5px solid black;
-        height: 700px;
+        height: 600px;
         width: 400px;
         text-align: center;
         background-color: beige;
@@ -682,6 +688,14 @@ hr {
         border-top: 1px solid black;
         border-bottom: 1px solid black;
     }
+
+    .investmentFootContainer {
+        position: absolute;
+        margin-top: 0vw;
+        margin-left: 52%;
+        text-align: right;
+    }
+
 }
 
 @media  screen and (min-width: 801px) and (max-width: 1100px) {
@@ -754,6 +768,10 @@ hr {
         width: 400px;
     }
 
+    .portfolioFootContainer {
+        margin-left: 50%;
+    }
+
     .investmentFootContainer {
         margin-left: 50%;
     }
@@ -772,14 +790,99 @@ hr {
         width: 450px;
     }
     
-     .aboutMeText {
+    .aboutMeText {
         width: 80vw;
      }
 
-     .footList {
+    .footList {
         margin-left: 49vw;
-
      }
+
+    .investmentOptions {
+        position: relative;
+        margin-top: 0vw;
+        margin-left: 12vw;
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 0vw;
+    }
+    
+    .investmentHeader {
+        clear: both;
+        position: absolute;
+        text-align: center;
+        margin-top: 3vw;
+        margin-left: 30vw;
+        z-index: 2;
+    }
+    
+    .individualSession {
+        margin-top: 14vw;
+        margin-left: 20vw;
+        margin-bottom: 6vw;
+        border: 0.5px solid black;
+        height: 600px;
+        width: 400px;
+        text-align: center;
+        background-color: beige;
+
+    }
+    
+    .portraitSession {
+        margin-left: 20vw;
+        margin-bottom: 6vw;
+        border: 0.5px solid black;
+        height: 600px;
+        width: 400px;
+        text-align: center;
+        background-color: beige;
+    }
+    
+    .groupSession {
+        margin-left: 20vw;
+        margin-bottom: 3vw;
+        border: 0.5px solid black;
+        height: 600px;
+        width: 400px;
+        text-align: center;
+        background-color: beige;
+    }
+    
+    .individualPic {
+        height: 175px;
+        width: 300px;
+    }
+    
+    .groupPic {
+        height: 175px;
+        width: 300px;
+    }
+    
+    .familyPic {
+        height: 175px;
+        width: 300px;
+    }
+    
+    .subHeader {
+        text-decoration: underline;
+    }
+    
+    .priceTag {
+        margin-left: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-top: 5vw;
+        width: 80%;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .investmentFootContainer .investmentFoot {
+        position: absolute;
+        margin-top: 0vw;
+        margin-left: 20%;
+        text-align: right;
+    }
 }
 
 @media  screen and (min-width: 1100px) and (max-width: 1509px) {
@@ -852,6 +955,10 @@ hr {
         width: 390px;
     }
 
+    .portfolioFootContainer {
+        margin-left: 50%;
+    }
+
     .investmentFootContainer {
         margin-left: 50%;
     }
@@ -867,14 +974,92 @@ hr {
     .footList {
         margin-left: 40vw;
     }
-}
 
-@media  screen and (min-width: 1650px) {
+    .investmentOptions {
+        position: relative;
+        margin-top: 0vw;
+        margin-left: 12vw;
+        display: grid;
+        grid-template-columns: auto;
+        margin-bottom: 0vw;
+    }
+    
+    .investmentHeader {
+        clear: both;
+        position: absolute;
+        text-align: center;
+        margin-top: 3vw;
+        margin-left: 30vw;
+        z-index: 2;
+    }
+    
+    .individualSession {
+        margin-top: 14vw;
+        margin-left: 20vw;
+        margin-bottom: 6vw;
+        border: 0.5px solid black;
+        height: 600px;
+        width: 400px;
+        text-align: center;
+        background-color: beige;
 
-    img {
-       height: 400px;
-       width: 470px;
-   }
+    }
+    
+    .portraitSession {
+        margin-left: 20vw;
+        margin-bottom: 6vw;
+        border: 0.5px solid black;
+        height: 600px;
+        width: 400px;
+        text-align: center;
+        background-color: beige;
+    }
+    
+    .groupSession {
+        margin-left: 20vw;
+        margin-bottom: 3vw;
+        border: 0.5px solid black;
+        height: 600px;
+        width: 400px;
+        text-align: center;
+        background-color: beige;
+    }
+    
+    .individualPic {
+        height: 175px;
+        width: 300px;
+    }
+    
+    .groupPic {
+        height: 175px;
+        width: 300px;
+    }
+    
+    .familyPic {
+        height: 175px;
+        width: 300px;
+    }
+    
+    .subHeader {
+        text-decoration: underline;
+    }
+    
+    .priceTag {
+        margin-left: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-top: 5vw;
+        width: 80%;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+    .investmentFootContainer .investmentFoot {
+        position: absolute;
+        margin-top: 0vw;
+        margin-left: 20%;
+        text-align: right;
+    }
 }
 
 @media  screen and (min-width: 1510px) and (max-width: 1750px) {
@@ -909,7 +1094,6 @@ hr {
         z-index: 3;
         margin-left: 56vw;
         cursor: pointer;
-        
     }
     
     .triangle-left {
@@ -963,4 +1147,96 @@ hr {
         box-shadow: 0px 8px 20px 0px chocolate;
         z-index: 3;
     }
+
+    .footList {
+        margin-left: 20%;
+    }
+
+    .investmentOptions {
+        position: relative;
+        margin-top: 0vw;
+        margin-left: 3vw;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-bottom: 0vw;
+    }
+    
+    .investmentHeader {
+        clear: both;
+        text-align: center;
+        margin-top: 3vw;
+        margin-left: vw;
+        z-index: 2;
+    }
+    
+    .individualSession {
+        margin-top: 3vw;
+        margin-left: 5vw;
+        margin-bottom: 6vw;
+        border: 0.5px solid black;
+        height: 600px;
+        width: 400px;
+        text-align: center;
+        background-color: beige;
+    }
+    
+    .portraitSession {
+        margin-top: 3vw;
+        margin-right: 3vw;
+        margin-bottom: 6vw;
+        border: 0.5px solid black;
+        height: 600px;
+        width: 400px;
+        text-align: center;
+        background-color: beige;
+    }
+    
+    .groupSession {
+        margin-top: 3vw;
+        margin-right: 3vw;
+        margin-bottom: 6vw;
+        border: 0.5px solid black;
+        height: 600px;
+        width: 400px;
+        text-align: center;
+        background-color: beige;
+    }
+    
+    .individualPic {
+        height: 175px;
+        width: 300px;
+    }
+    
+    .groupPic {
+        height: 175px;
+        width: 300px;
+    }
+    
+    .familyPic {
+        height: 175px;
+        width: 300px;
+    }
+    
+    .subHeader {
+        text-decoration: underline;
+    }
+    
+    .priceTag {
+        margin-left: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-top: 5vw;
+        width: 80%;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+}
+
+@media  screen and (min-width: 1650px) {
+
+    img {
+       height: 400px;
+       width: 470px;
+   }
 }
