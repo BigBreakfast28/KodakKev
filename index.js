@@ -2792,9 +2792,6 @@ document.getElementById('pagePort8').onclick = function() {
 
 }
 
-document.getElementById('menu').onclick = function() {
-    document.getElementById('homeDrop-content').style.display = "block";
-}
 
 
 
