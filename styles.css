@@ -67,7 +67,7 @@ height: 100%;
 background-image: url(./public/homeScreen2.jpg);
 background-repeat: none;
 background-size: cover;
-position: fixed;
+position:fixed;
 z-index: 2;
 display: none;
 }
@@ -75,14 +75,15 @@ display: none;
 .homeDrop {
     position: relative;
     display: none;
-    height: 20px;
-    width: 50px;
-    border: 2px solid ;
-    padding: 3px;
-    padding-left: 12px;
-    margin-top: 25%;
+    height: 4vw;
+    width: 7vw;
+    border: 0.25vw solid ;
+    padding: 1vw;
+    padding-left: 1vw;
+    margin-top: 30%;
     margin-left: 2%;
     color: chocolate;
+    font-size: 3vw;
     cursor: pointer;
 }
 
@@ -550,17 +551,30 @@ li h4 {
     .homeDrop {
         display: inline-block;
         position: fixed;
+        margin-left: 25%;
+        font-size: 5vw;
         z-index: 3;
+        border: 0.25vw solid ;
+        width: 12vw;
+        padding-bottom: 3vw;
+        color: chocolate;
+        margin-top: 33%;
+    }
+
+    .homeDrop-content {
+        font-size: 3vw;
     }
 
     .indexTitle {
-        font-size: 5.5vw;
+        font-size: 8vw;
+        margin-left: 25%;
         color: chocolate;
     }
 
     .indexSubTitle {
-        margin-top: 20%;
-        font-size: 17px;
+        margin-top: 24%;
+        margin-left: 25%;
+        font-size: 6vw;
         color: chocolate;
     }
 
@@ -741,17 +755,31 @@ li h4 {
     .homeDrop {
         display: inline-block;
         position: fixed;
+        margin-left: 25%;
+        font-size: 3vw;
         z-index: 3;
+        border: 0.25vw solid ;
+        width: 7vw;
+        height: 1vw;
+        padding-bottom: 3vw;
+        color: chocolate;
+        margin-top: 33%;
+    }
+
+    .homeDrop-content {
+        font-size: 2vw;
     }
 
     .indexTitle {
-        font-size: 5.5vw;
+        font-size: 7vw;
+        margin-left: 25%;
         color: chocolate;
     }
 
     .indexSubTitle {
-        margin-top: 20%;
-        font-size: 17px;
+        margin-top: 24%;
+        margin-left: 25%;
+        font-size: 5vw;
         color: chocolate;
     }
 
@@ -928,17 +956,31 @@ li h4 {
     .homeDrop {
         display: inline-block;
         position: fixed;
+        margin-left: 25%;
+        font-size: 3vw;
         z-index: 3;
+        border: 0.25vw solid ;
+        width: 7vw;
+        height: 1vw;
+        padding-bottom: 3vw;
+        color: chocolate;
+        margin-top: 33%;
+    }
+
+    .homeDrop-content {
+        font-size: 2vw;
     }
 
     .indexTitle {
-        font-size: 5.5vw;
+        font-size: 7vw;
+        margin-left: 25%;
         color: chocolate;
     }
 
     .indexSubTitle {
-        margin-top: 20%;
-        font-size: 17px;
+        margin-top: 24%;
+        margin-left: 25%;
+        font-size: 5vw;
         color: chocolate;
     }
 
