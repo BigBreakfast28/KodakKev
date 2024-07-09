@@ -513,6 +513,7 @@ li h4 {
         display: none;
     }
     .smallScreen {
+        background-position: 50%;
         display: block;
     }
 
