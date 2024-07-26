@@ -1,3 +1,7 @@
+
+
+
+
 function topPage() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -2764,3 +2768,10 @@ document.getElementById('pagePort8').onclick = function() {
     document.getElementById('image117').style.display="block";
 
 };
+
+document.getElementById('forward').onclick = function() {
+    
+    for (x=0; x <= 8; x++) {
+        
+    };
+}
