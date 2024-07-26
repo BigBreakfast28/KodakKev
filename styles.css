@@ -639,7 +639,7 @@ li h4 {
         position: absolute;
         text-align: center;
         margin-top: 3vw;
-        margin-left: 11vw;
+        margin-left: 9vw;
         z-index: 2;
     }
     
@@ -710,7 +710,7 @@ li h4 {
     .investmentFootContainer {
         position: absolute;
         margin-top: 0vw;
-        margin-left: 52%;
+        margin-left: 48%;
         text-align: right;
     }
 
