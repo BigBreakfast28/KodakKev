@@ -644,12 +644,13 @@ li h4 {
     }
     
     .individualSession {
-        margin-top: 14vw;
+        margin-top: 17vw;
+        margin-left: 0vw;
         margin-right: 3vw;
         margin-bottom: 6vw;
         border: 0.5px solid black;
-        height: 40vw;
-        width: 20vw;
+        height: 600px;
+        width: 300px;
         text-align: center;
         background-color: beige;
 
@@ -657,20 +658,22 @@ li h4 {
     
     .portraitSession {
         margin-right: 4vw;
+        margin-left: 0vw;
         margin-bottom: 6vw;
         border: 0.5px solid black;
         height: 600px;
-        width: 400px;
+        width: 300px;
         text-align: center;
         background-color: beige;
     }
     
     .groupSession {
         margin-right: 4vw;
+        margin-left: 0vw;
         margin-bottom: 0vw;
         border: 0.5px solid black;
         height: 600px;
-        width: 400px;
+        width: 300px;
         text-align: center;
         background-color: beige;
     }
