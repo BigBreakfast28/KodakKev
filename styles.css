@@ -644,13 +644,13 @@ li h4 {
     }
     
     .individualSession {
-        margin-top: 17vw;
+        margin-top: 21vw;
         margin-left: 0vw;
         margin-right: 3vw;
         margin-bottom: 6vw;
         border: 0.5px solid black;
         height: 600px;
-        width: 300px;
+        width: 320px;
         text-align: center;
         background-color: beige;
 
@@ -662,7 +662,7 @@ li h4 {
         margin-bottom: 6vw;
         border: 0.5px solid black;
         height: 600px;
-        width: 300px;
+        width: 320px;
         text-align: center;
         background-color: beige;
     }
@@ -673,7 +673,7 @@ li h4 {
         margin-bottom: 0vw;
         border: 0.5px solid black;
         height: 600px;
-        width: 300px;
+        width: 320px;
         text-align: center;
         background-color: beige;
     }
