@@ -628,7 +628,7 @@ li h4 {
     .investmentOptions {
         position: relative;
         margin-top: 10vw;
-        margin-left: 12vw;
+        margin-left: 9vw;
         display: grid;
         grid-template-columns: auto;
         margin-bottom: 2vw;
@@ -644,7 +644,7 @@ li h4 {
     }
     
     .individualSession {
-        margin-top: 21vw;
+        margin-top: 23vw;
         margin-left: 0vw;
         margin-right: 3vw;
         margin-bottom: 6vw;
